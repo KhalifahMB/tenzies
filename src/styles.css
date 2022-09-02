@@ -46,6 +46,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3px;
   cursor: pointer;
   box-shadow: 0px 3.57447px 3.57447px rgba(0, 0, 0, 0.1);
 }
@@ -53,6 +54,13 @@ p {
 .die-num {
   font-size: 2em;
   font-weight: lighter;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .roll-dice {

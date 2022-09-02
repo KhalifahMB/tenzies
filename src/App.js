@@ -33,7 +33,7 @@ function App() {
     }
     return newDice;
   }
-  let gameWon = false;
+
   function rollDice() {
     if (!tenzies) {
       setDice((oldDice) =>
